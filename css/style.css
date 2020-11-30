@@ -88,6 +88,23 @@ main {
     margin-left: -2px;
 }
 
+a#nav-a-active{
+    color: #fff;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    text-decoration: none;
+}
+
+a#nav-a{
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+a#nav-a:hover{
+    color: lightgray;
+}
 
 p { margin: 0px 0px 10px; }
 .text-justify { text-align: justify; }
